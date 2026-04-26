@@ -53,14 +53,22 @@ export default function Splash() {
     };
   }, []);
 
+  const [showAndroidModal, setShowAndroidModal] = useState(false);
+
   const handleInstallClick = async () => {
     if (platform === "ios") {
       setShowIosModal(true);
-    } else if (platform === "android" && deferredPrompt) {
-      deferredPrompt.prompt();
-      const { outcome } = await deferredPrompt.userChoice;
-      if (outcome === "accepted") {
-        setDeferredPrompt(null);
+    } else if (platform === "android") {
+      if (deferredPrompt) {
+        // Native PWA install prompt available
+        deferredPrompt.prompt();
+        const { outcome } = await deferredPrompt.userChoice;
+        if (outcome === "accepted") {
+          setDeferredPrompt(null);
+        }
+      } else {
+        // Fallback: show manual instructions
+        setShowAndroidModal(true);
       }
     }
   };
@@ -1276,6 +1284,49 @@ export default function Splash() {
           © {new Date().getFullYear()} EcoValor. Generando impacto sostenible.
         </p>
       </footer>
+
+      {/* Android Modal - Instrucciones manuales */}
+      {showAndroidModal && (
+        <div
+          style={{ position: "fixed", top: 0, left: 0, right: 0, bottom: 0, background: "rgba(0,0,0,0.5)", backdropFilter: "blur(8px)", display: "flex", alignItems: "center", justifyContent: "center", zIndex: 9999, padding: "2rem" }}
+          onClick={() => setShowAndroidModal(false)}
+        >
+          <div
+            style={{ background: "white", borderRadius: "30px", padding: "2.5rem 2rem", maxWidth: "400px", width: "100%", textAlign: "center", boxShadow: "0 25px 60px rgba(0,0,0,0.15)" }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div style={{ background: "#f0faef", width: "70px", height: "70px", borderRadius: "22px", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 1.5rem auto", fontSize: "2rem" }}>
+              📲
+            </div>
+            <h3 style={{ fontSize: "1.5rem", fontWeight: "900", color: "#1a3619", marginBottom: "0.5rem" }}>
+              Agregar a Inicio
+            </h3>
+            <p style={{ color: "#888", fontSize: "0.9rem", marginBottom: "1.5rem" }}>
+              Sigue estos pasos en Chrome:
+            </p>
+            <div style={{ textAlign: "left", display: "flex", flexDirection: "column", gap: "1rem", marginBottom: "2rem" }}>
+              {[
+                { num: "1", text: 'Toca el ícono de menú ⋮ en la esquina superior derecha de Chrome' },
+                { num: "2", text: 'Selecciona "Agregar a pantalla de inicio"' },
+                { num: "3", text: 'Confirma tocando "Agregar"' },
+              ].map((step) => (
+                <div key={step.num} style={{ display: "flex", gap: "12px", alignItems: "flex-start" }}>
+                  <div style={{ background: "#2B5729", color: "white", width: "28px", height: "28px", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: "800", fontSize: "0.85rem", flexShrink: 0 }}>
+                    {step.num}
+                  </div>
+                  <p style={{ margin: 0, color: "#444", lineHeight: "1.5", fontSize: "0.95rem" }}>{step.text}</p>
+                </div>
+              ))}
+            </div>
+            <button
+              onClick={() => setShowAndroidModal(false)}
+              style={{ background: "#2B5729", color: "white", border: "none", padding: "1rem 2.5rem", borderRadius: "30px", fontWeight: "700", fontSize: "1rem", cursor: "pointer", boxShadow: "0 8px 20px rgba(43, 87, 41, 0.2)", width: "100%" }}
+            >
+              Entendido
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* iOS Modal - App en Desarrollo */}
       {showIosModal && (

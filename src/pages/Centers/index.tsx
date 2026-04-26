@@ -90,7 +90,7 @@ export default function Centers() {
           {centers.map((center) => (
             <div
               key={center.id}
-              onClick={() => navigate(`/centers/${center.id}`)}
+              onClick={() => navigate(`/app/centers/${center.id}`)}
               style={{
                 background: "white",
                 borderRadius: "20px",
@@ -269,7 +269,7 @@ export default function Centers() {
                     </span>
                     <br />
                     <button
-                      onClick={() => navigate(`/centers/${center.id}`)}
+                      onClick={() => navigate(`/app/centers/${center.id}`)}
                       style={{
                         marginTop: "10px",
                         padding: "5px 10px",

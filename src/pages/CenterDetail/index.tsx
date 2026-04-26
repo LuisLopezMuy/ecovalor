@@ -99,7 +99,7 @@ export default function CenterDetail() {
           </p>
 
           <button
-              onClick={() => navigate("/centers")}
+              onClick={() => navigate("/app/centers")}
               style={{
                   background: "linear-gradient(135deg, #6BB865 0%, #4a8247 100%)",
                   color: "white",

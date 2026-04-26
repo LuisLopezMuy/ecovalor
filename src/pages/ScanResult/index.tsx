@@ -60,7 +60,7 @@ export default function ScanResult() {
         }}
       >
         <button
-          onClick={() => navigate("/scan")}
+          onClick={() => navigate("/app/scan")}
           style={{
             background: "transparent",
             border: "none",
@@ -269,7 +269,7 @@ export default function ScanResult() {
           Lugares Recomendados
         </h3>
         <button
-          onClick={() => navigate("/centers")}
+          onClick={() => navigate("/app/centers")}
           style={{
             background: "transparent",
             border: "none",
@@ -298,7 +298,7 @@ export default function ScanResult() {
         {suggestedCenters.map((center) => (
           <div
             key={center.id}
-            onClick={() => navigate(`/centers/${center.id}`)}
+            onClick={() => navigate(`/app/centers/${center.id}`)}
             style={{
               background: "white",
               borderRadius: "24px",
@@ -414,7 +414,7 @@ export default function ScanResult() {
       </div>
 
       <button
-        onClick={() => navigate("/scan")}
+        onClick={() => navigate("/app/scan")}
         style={{
           width: "100%",
           padding: "1.2rem",

@@ -11,9 +11,9 @@ export default function Login() {
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
-    if (password === "1234") {
+    if (password === "12345") {
       localStorage.setItem("username", user);
-      navigate("/home");
+      navigate("/app/home");
     } else {
       setError("Contraseña incorrecta. Intenta '1234'.");
     }

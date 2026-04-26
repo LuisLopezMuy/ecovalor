@@ -1328,15 +1328,12 @@ export default function Splash() {
         </div>
       )}
 
-      {/* iOS Modal - App en Desarrollo */}
+      {/* iOS Modal - App en Desarrollo + Demo */}
       {showIosModal && (
         <div
           style={{
             position: "fixed",
-            top: 0,
-            left: 0,
-            right: 0,
-            bottom: 0,
+            top: 0, left: 0, right: 0, bottom: 0,
             background: "rgba(0,0,0,0.5)",
             backdropFilter: "blur(8px)",
             display: "flex",
@@ -1351,75 +1348,59 @@ export default function Splash() {
             style={{
               background: "white",
               borderRadius: "30px",
-              padding: "3rem 2.5rem",
+              padding: "2.5rem 2rem",
               maxWidth: "400px",
               width: "100%",
               textAlign: "center",
               boxShadow: "0 25px 60px rgba(0,0,0,0.15)",
-              animation: "fadeInUp 0.3s ease",
+              maxHeight: "90vh",
+              overflowY: "auto",
             }}
             onClick={(e) => e.stopPropagation()}
           >
-            <div
-              style={{
-                background: "#f0faef",
-                width: "80px",
-                height: "80px",
-                borderRadius: "25px",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                margin: "0 auto 1.5rem auto",
-                fontSize: "2.5rem",
-              }}
-            >
-              <Apple size={40} color="#2B5729" />
+            <div style={{ background: "#f0faef", width: "70px", height: "70px", borderRadius: "22px", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 1.5rem auto" }}>
+              <Apple size={36} color="#2B5729" />
             </div>
-            <h3
-              style={{
-                fontSize: "1.6rem",
-                fontWeight: "900",
-                color: "#1a3619",
-                marginBottom: "1rem",
-              }}
-            >
+            <h3 style={{ fontSize: "1.5rem", fontWeight: "900", color: "#1a3619", marginBottom: "0.75rem" }}>
               App en Desarrollo
             </h3>
-            <p
-              style={{
-                color: "#666",
-                lineHeight: "1.6",
-                fontSize: "1.05rem",
-                marginBottom: "2rem",
-              }}
-            >
+            <p style={{ color: "#666", lineHeight: "1.6", fontSize: "1rem", marginBottom: "1.5rem" }}>
               La versión nativa para iOS se encuentra actualmente en desarrollo.
               ¡Pronto estará disponible en la App Store!
             </p>
+
+            {/* Divisor */}
+            <div style={{ borderTop: "1px solid #eee", margin: "0 0 1.5rem 0" }} />
+
+            {/* Demo invitation */}
+            <p style={{ color: "#2B5729", fontWeight: "700", fontSize: "1rem", marginBottom: "1.2rem" }}>
+              🌿 Mientras tanto, puedes probar la demo:
+            </p>
+
+            {/* iOS instructions */}
+            <p style={{ color: "#888", fontSize: "0.85rem", marginBottom: "1rem" }}>
+              Agrega EcoValor a tu pantalla de inicio:
+            </p>
+            <div style={{ textAlign: "left", display: "flex", flexDirection: "column", gap: "1rem", marginBottom: "2rem" }}>
+              {[
+                { num: "1", text: 'Toca el botón de Compartir  ⎙  en la parte inferior de Safari' },
+                { num: "2", text: 'Desplázate y selecciona "Agregar a pantalla de inicio"' },
+                { num: "3", text: 'Confirma tocando "Agregar" en la esquina superior derecha' },
+              ].map((step) => (
+                <div key={step.num} style={{ display: "flex", gap: "12px", alignItems: "flex-start" }}>
+                  <div style={{ background: "#2B5729", color: "white", width: "28px", height: "28px", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: "800", fontSize: "0.85rem", flexShrink: 0 }}>
+                    {step.num}
+                  </div>
+                  <p style={{ margin: 0, color: "#444", lineHeight: "1.5", fontSize: "0.95rem" }}>{step.text}</p>
+                </div>
+              ))}
+            </div>
+
             <button
               onClick={() => setShowIosModal(false)}
-              style={{
-                background: "#2B5729",
-                color: "white",
-                border: "none",
-                padding: "1rem 2.5rem",
-                borderRadius: "30px",
-                fontWeight: "700",
-                fontSize: "1rem",
-                cursor: "pointer",
-                transition: "all 0.3s ease",
-                boxShadow: "0 8px 20px rgba(43, 87, 41, 0.2)",
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = "translateY(-2px)";
-                e.currentTarget.style.boxShadow =
-                  "0 12px 25px rgba(43, 87, 41, 0.3)";
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = "translateY(0)";
-                e.currentTarget.style.boxShadow =
-                  "0 8px 20px rgba(43, 87, 41, 0.2)";
-              }}
+              style={{ background: "#2B5729", color: "white", border: "none", padding: "1rem 2.5rem", borderRadius: "30px", fontWeight: "700", fontSize: "1rem", cursor: "pointer", transition: "all 0.3s ease", boxShadow: "0 8px 20px rgba(43, 87, 41, 0.2)", width: "100%" }}
+              onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 12px 25px rgba(43, 87, 41, 0.3)"; }}
+              onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "0 8px 20px rgba(43, 87, 41, 0.2)"; }}
             >
               Entendido
             </button>

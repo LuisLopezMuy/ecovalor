@@ -46,10 +46,10 @@ const Navbar = () => {
       boxShadow: "0 -4px 20px rgba(0,0,0,0.1)",
       zIndex: 100
     }}>
-      <NavItem to="/scan" icon={ScanLine} label="Escanear" />
-      <NavItem to="/centers" icon={ClipboardList} label="Centros" />
-      <NavItem to="/community" icon={Users} label="Comunidad" />
-      <NavItem to="/profile" icon={User} label="Perfil" />
+      <NavItem to="/app/scan" icon={ScanLine} label="Escanear" />
+      <NavItem to="/app/centers" icon={ClipboardList} label="Centros" />
+      <NavItem to="/app/community" icon={Users} label="Comunidad" />
+      <NavItem to="/app/profile" icon={User} label="Perfil" />
     </nav>
   );
 };

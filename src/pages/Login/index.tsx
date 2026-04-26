@@ -15,7 +15,7 @@ export default function Login() {
       localStorage.setItem("username", user);
       navigate("/app/home");
     } else {
-      setError("Contraseña incorrecta. Intenta '1234'.");
+      setError("Contraseña incorrecta. Intenta '12345'.");
     }
   };
 

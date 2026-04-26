@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router";
 import {
   Leaf,
   ScanLine,
@@ -21,7 +20,6 @@ export default function Splash() {
   const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
   const [showIosModal, setShowIosModal] = useState(false);
   const [platform, setPlatform] = useState<"desktop" | "android" | "ios">("desktop");
-  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {

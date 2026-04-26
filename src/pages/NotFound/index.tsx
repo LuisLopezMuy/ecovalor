@@ -41,7 +41,7 @@ const NotFound = () => {
             </p>
 
             <button
-                onClick={() => navigate("/home")}
+                onClick={() => navigate("/app/home")}
                 style={{
                     background: "linear-gradient(135deg, #6BB865 0%, #4a8247 100%)",
                     color: "white",

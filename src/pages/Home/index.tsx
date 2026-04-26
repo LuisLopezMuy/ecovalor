@@ -86,7 +86,7 @@ export default function Home() {
 
                 {/* Botón Call-To-Action Principal: Escanear */}
                 <div 
-                    onClick={() => navigate("/scan")}
+                    onClick={() => navigate("/app/scan")}
                     style={{
                         background: "linear-gradient(135deg, #6BB865 0%, #4a8247 100%)",
                         borderRadius: "24px",
@@ -114,7 +114,7 @@ export default function Home() {
                 <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem" }}>
                     {/* Centros Cercanos */}
                     <div 
-                        onClick={() => navigate("/centers")}
+                        onClick={() => navigate("/app/centers")}
                         style={{
                             background: "white",
                             borderRadius: "24px",
@@ -139,7 +139,7 @@ export default function Home() {
 
                     {/* Comunidad */}
                     <div 
-                        onClick={() => navigate("/community")}
+                        onClick={() => navigate("/app/community")}
                         style={{
                             background: "white",
                             borderRadius: "24px",
@@ -165,7 +165,7 @@ export default function Home() {
 
                 {/* Perfil en formato Lista */}
                 <div 
-                    onClick={() => navigate("/profile")}
+                    onClick={() => navigate("/app/profile")}
                     style={{
                         background: "white",
                         borderRadius: "20px",

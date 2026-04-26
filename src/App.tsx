@@ -18,20 +18,20 @@ export default function App() {
       <Routes>
         {/* Rutas sin Layout */}
         <Route path="/" element={<Splash />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/app/login" element={<Login />} />
+        <Route path="/app/home" element={<Home />} />
 
         {/* Rutas con Layout (Navbar presente) */}
         <Route element={<MainLayout />}>
-          <Route path="/scan" element={<Scan />} />
-          <Route path="/scan/result" element={<ScanResult />} />
+          <Route path="/app/scan" element={<Scan />} />
+          <Route path="/app/scan/result" element={<ScanResult />} />
 
-          <Route path="/centers" element={<Centers />} />
-          <Route path="/centers/:id" element={<CenterDetail />} />
+          <Route path="/app/centers" element={<Centers />} />
+          <Route path="/app/centers/:id" element={<CenterDetail />} />
 
-          <Route path="/community" element={<Community />} />
+          <Route path="/app/community" element={<Community />} />
 
-          <Route path="/profile" element={<Profile />} />
+          <Route path="/app/profile" element={<Profile />} />
         </Route>
 
         {/* Ruta 404 para cualquier otra URL */}

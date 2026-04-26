@@ -27,7 +27,7 @@ export default function Profile() {
 
   const handleLogout = () => {
     localStorage.removeItem("username");
-    navigate("/login");
+    navigate("/app/login");
   };
 
   return (

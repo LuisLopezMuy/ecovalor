@@ -1,0 +1,62 @@
+[
+  {
+    "id": "plastic",
+    "name": "Plástico PET y HDPE",
+    "icon": "Droplet",
+    "description": "Envases de bebidas, recipientes de detergente y botellas de plástico duro. Altamente reciclable en fibras textiles y envases nuevos.",
+    "curiosity": "♻️ ¿Sabías que reciclar una sola botella de plástico ahorra la energía suficiente para encender un foco de 60 watts durante 6 horas continuas?",
+    "basePriceMin": 15,
+    "basePriceMax": 25,
+    "confidence": 98
+  },
+  {
+    "id": "glass",
+    "name": "Vidrio (Transparente o Color)",
+    "icon": "GlassWater",
+    "description": "Botellas y frascos de vidrio. Deben estar limpios y separados por color si es posible. El vidrio es 100% reciclable infinita cantidad de veces sin perder propiedades.",
+    "curiosity": "♻️ ¡Datos Curiosos! El vidrio puede reciclarse un millón de veces sin perder nunca su calidad, grosor o pureza.",
+    "basePriceMin": 10,
+    "basePriceMax": 18,
+    "confidence": 94
+  },
+  {
+    "id": "metal",
+    "name": "Metal y Chatarra Ferrosa",
+    "icon": "Settings",
+    "description": "Cables rotos, herramientas oxidadas y piezas estructurales. Uno de los materiales de mayor y más constante valor en el mercado de reciclaje global.",
+    "curiosity": "♻️ El porcentaje de reciclaje del acero es tan alto que de cada envase de acero que se utiliza en el mundo, se puede recuperar aproximadamente un 70%.",
+    "basePriceMin": 5,
+    "basePriceMax": 30,
+    "confidence": 91
+  },
+  {
+    "id": "aluminum",
+    "name": "Latas de Aluminio",
+    "icon": "Battery",
+    "description": "Latas de gaseosas, cervezas y bebidas energéticas. Material muy ligero, abundante y valioso. Lávalas y aplástalas para optimizar mucho el espacio al venderlas.",
+    "curiosity": "♻️ ¿Sabías que reciclar aluminio consume un 95% menos de energía que producir aluminio nuevo a partir de minerales extraídos de minas?",
+    "basePriceMin": 20,
+    "basePriceMax": 30,
+    "confidence": 96
+  },
+  {
+    "id": "paper",
+    "name": "Papel y Cartón Corrugado",
+    "icon": "Package",
+    "description": "Cajas de envíos, papel kraft, cartulinas y periódico (de preferencia sin brillantes, esmaltes ni restos grasos). Debe entregarse completamente seco.",
+    "curiosity": "♻️ Por cada tonelada de papel comercial reciclado, se salvan en promedio 17 árboles maduros y se reducen drásticamente las emisiones de gases invernadero.",
+    "basePriceMin": 5,
+    "basePriceMax": 15,
+    "confidence": 89
+  },
+  {
+    "id": "electronics",
+    "name": "Desechos Electrónicos (E-Waste)",
+    "icon": "Cpu",
+    "description": "Placas base, celulares viejos, controles defectuosos, cables de cobre. Contienen metales preciosos recuperables si se tratan adecuadamente.",
+    "curiosity": "♻️ Los celulares y las computadoras contienen oro, plata y paladio en pequeñas cantidades, convirtiendo la basura electrónica en minas de valor tecnológico.",
+    "basePriceMin": 15,
+    "basePriceMax": 28,
+    "confidence": 87
+  }
+]

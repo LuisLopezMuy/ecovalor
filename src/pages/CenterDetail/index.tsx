@@ -68,7 +68,7 @@ export default function CenterDetail() {
       <div style={{
           position: "absolute",
           top: 0, left: 0, right: 0, bottom: 0,
-          backgroundColor: "#f4fbf4",
+          background: "transparent",
           fontFamily: "'Inter', sans-serif",
           display: "flex",
           flexDirection: "column",
@@ -130,7 +130,7 @@ export default function CenterDetail() {
       bottom: 0,
       display: "flex",
       flexDirection: "column",
-      backgroundColor: "#f4fbf4",
+      background: "transparent",
       fontFamily: "'Inter', sans-serif",
       overflowY: "auto",
       paddingBottom: "80px", // Margen preventivo para el Navbar inferior
@@ -141,7 +141,7 @@ export default function CenterDetail() {
         display: "flex",
         alignItems: "center",
         gap: "1rem",
-        backgroundColor: "#f4fbf4",
+        background: "transparent",
         position: "sticky",
         top: 0,
         zIndex: 100

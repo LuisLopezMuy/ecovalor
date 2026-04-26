@@ -57,13 +57,13 @@ export default function Centers() {
         display: "flex",
         flexDirection: "column",
         fontFamily: "'Inter', sans-serif",
-        backgroundColor: "#f4fbf4",
+        background: "transparent",
         boxSizing: "border-box",
         overflow: "hidden"
       }}
     >
       {/* Título Siempre Visible en la parte superior */}
-      <div style={{ padding: "1.5rem 1.5rem 0.5rem 1.5rem", zIndex: 10, background: "#f4fbf4" }}>
+      <div style={{ padding: "1.5rem 1.5rem 0.5rem 1.5rem", zIndex: 10, background: "transparent" }}>
         <h2
           style={{
             color: "#2B5729",

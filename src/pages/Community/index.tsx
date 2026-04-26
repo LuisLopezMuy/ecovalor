@@ -74,7 +74,7 @@ export default function Community() {
       top: 0, left: 0, right: 0, bottom: 0,
       display: "flex",
       flexDirection: "column",
-      backgroundColor: "#f4fbf4",
+      background: "transparent",
       fontFamily: "'Inter', sans-serif",
       overflow: "hidden" // Previene recortes con el layout general
     }}>
@@ -82,7 +82,7 @@ export default function Community() {
       {/* Header Fijo */}
       <div style={{
         padding: "1.5rem",
-        backgroundColor: "#f4fbf4",
+        background: "transparent",
         zIndex: 10,
         boxShadow: "0 2px 10px rgba(0,0,0,0.02)"
       }}>

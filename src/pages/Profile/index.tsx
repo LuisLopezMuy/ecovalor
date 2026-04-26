@@ -33,9 +33,9 @@ export default function Profile() {
   return (
     <div style={{
       minHeight: "100vh",
-      background: "#f4fbf4",
+      background: "transparent",
       fontFamily: "'Inter', sans-serif",
-      paddingBottom: "10rem"
+      paddingBottom: "1rem"
     }}>
       {/* Header Splash-like */}
       <div style={{

@@ -1,0 +1,682 @@
+[
+  {
+    "id": "rc-001",
+    "name": "EcoCentro Zona 1",
+    "address": "6a Avenida 5-10, Zona 1, Ciudad de Guatemala, Guatemala",
+    "coordinates": {
+      "lat": 14.6345,
+      "lng": -90.513
+    },
+    "phone": "+502 3000 0001",
+    "email": "centro1@recicla.gt",
+    "weekdayHours": "08:00 - 17:00",
+    "weekendHours": "09:00 - 13:00",
+    "rating": 4.3,
+    "materials": [
+      {
+        "type": "plastic",
+        "pricePerPound": 19.98
+      },
+      {
+        "type": "glass",
+        "pricePerPound": 24.71
+      }
+    ],
+    "comments": [
+      {
+        "user": "Luis",
+        "comment": "Muy buen servicio, con pago inmediato y un pesaje totalmente a la vista. A veces hay un poco de fila los sábados al mediodía, pero siempre vale la pena la espera, son muy amables."
+      },
+      {
+        "user": "Ana",
+        "comment": "Excelente labor. Llevo frecuentemente mis envases de vidrio y plástico a este lugar y el servicio es muy rápido y cordial. Un gran apoyo para la comunidad ecológica de la ciudad."
+      }
+    ]
+  },
+  {
+    "id": "rc-002",
+    "name": "GreenPoint Zona 4",
+    "address": "7a Avenida 3-22, Zona 4, Ciudad de Guatemala, Guatemala",
+    "coordinates": {
+      "lat": 14.6215,
+      "lng": -90.5205
+    },
+    "phone": "+502 3000 0002",
+    "email": "centro2@recicla.gt",
+    "weekdayHours": "08:00 - 18:00",
+    "weekendHours": "09:00 - 14:00",
+    "rating": 4.7,
+    "materials": [
+      {
+        "type": "metal",
+        "pricePerPound": 5.36
+      },
+      {
+        "type": "plastic",
+        "pricePerPound": 25.71
+      }
+    ],
+    "comments": [
+      {
+        "user": "Carlos",
+        "comment": "Me encantó este centro de reciclaje. Las instalaciones están muy bien señalizadas, el personal es súper amable y te ayudan a descargar el material del vehículo. Definitivamente volveré."
+      },
+      {
+        "user": "María",
+        "comment": "Muy buen servicio, con pago inmediato y un pesaje totalmente a la vista. A veces hay un poco de fila los sábados al mediodía, pero siempre vale la pena la espera, son muy amables."
+      }
+    ]
+  },
+  {
+    "id": "rc-003",
+    "name": "ReciclaGT Zona 10",
+    "address": "5a Avenida 12-40, Zona 10, Ciudad de Guatemala, Guatemala",
+    "coordinates": {
+      "lat": 14.5938,
+      "lng": -90.515
+    },
+    "phone": "+502 3000 0003",
+    "email": "centro3@recicla.gt",
+    "weekdayHours": "07:30 - 17:30",
+    "weekendHours": "08:00 - 13:00",
+    "rating": 4.9,
+    "materials": [
+      {
+        "type": "aluminum",
+        "pricePerPound": 19.77
+      },
+      {
+        "type": "glass",
+        "pricePerPound": 13.46
+      }
+    ],
+    "comments": [
+      {
+        "user": "Sofía",
+        "comment": "Muy buen servicio, con pago inmediato y un pesaje totalmente a la vista. A veces hay un poco de fila los sábados al mediodía, pero siempre vale la pena la espera, son muy amables."
+      },
+      {
+        "user": "Pedro",
+        "comment": "Las instalaciones siempre están impecables y el proceso es sumamente moderno. Llevo todos los materiales de mi pequeña empresa y da mucho gusto apoyar a organizaciones que trabajan con este nivel de compromiso."
+      }
+    ]
+  },
+  {
+    "id": "rc-004",
+    "name": "EcoRecicla Zona 12",
+    "address": "Avenida Petapa 32-15, Zona 12, Ciudad de Guatemala, Guatemala",
+    "coordinates": {
+      "lat": 14.582,
+      "lng": -90.54
+    },
+    "phone": "+502 3000 0004",
+    "email": "centro4@recicla.gt",
+    "weekdayHours": "08:00 - 17:00",
+    "weekendHours": "Cerrado",
+    "rating": 3.9,
+    "materials": [
+      {
+        "type": "paper",
+        "pricePerPound": 10.44
+      },
+      {
+        "type": "plastic",
+        "pricePerPound": 12.55
+      }
+    ],
+    "comments": [
+      {
+        "user": "José",
+        "comment": "Me encantó este centro de reciclaje. Las instalaciones están muy bien señalizadas, el personal es súper amable y te ayudan a descargar el material del vehículo. Definitivamente volveré."
+      },
+      {
+        "user": "Elena",
+        "comment": "Me encantó este centro de reciclaje. Las instalaciones están muy bien señalizadas, el personal es súper amable y te ayudan a descargar el material del vehículo. Definitivamente volveré."
+      }
+    ]
+  },
+  {
+    "id": "rc-005",
+    "name": "Centro Verde Zona 15",
+    "address": "Boulevard Vista Hermosa 20-50, Zona 15, Ciudad de Guatemala, Guatemala",
+    "coordinates": {
+      "lat": 14.6005,
+      "lng": -90.48
+    },
+    "phone": "+502 3000 0005",
+    "email": "centro5@recicla.gt",
+    "weekdayHours": "09:00 - 18:00",
+    "weekendHours": "09:00 - 15:00",
+    "rating": 4.6,
+    "materials": [
+      {
+        "type": "electronics",
+        "pricePerPound": 22.3
+      },
+      {
+        "type": "metal",
+        "pricePerPound": 28.58
+      }
+    ],
+    "comments": [
+      {
+        "user": "Diego",
+        "comment": "Excelente labor. Llevo frecuentemente mis envases de vidrio y plástico a este lugar y el servicio es muy rápido y cordial. Un gran apoyo para la comunidad ecológica de la ciudad."
+      },
+      {
+        "user": "Lucía",
+        "comment": "Excelente labor. Llevo frecuentemente mis envases de vidrio y plástico a este lugar y el servicio es muy rápido y cordial. Un gran apoyo para la comunidad ecológica de la ciudad."
+      }
+    ]
+  },
+  {
+    "id": "rc-006",
+    "name": "Recicladora Mixco Centro",
+    "address": "Calzada Roosevelt 25-10, Mixco, Guatemala",
+    "coordinates": {
+      "lat": 14.635,
+      "lng": -90.585
+    },
+    "phone": "+502 3000 0006",
+    "email": "centro6@recicla.gt",
+    "weekdayHours": "08:00 - 17:00",
+    "weekendHours": "08:00 - 13:00",
+    "rating": 4.1,
+    "materials": [
+      {
+        "type": "plastic",
+        "pricePerPound": 23.88
+      },
+      {
+        "type": "glass",
+        "pricePerPound": 26.72
+      }
+    ],
+    "comments": [
+      {
+        "user": "Mario",
+        "comment": "Muy buen servicio, con pago inmediato y un pesaje totalmente a la vista. A veces hay un poco de fila los sábados al mediodía, pero siempre vale la pena la espera, son muy amables."
+      },
+      {
+        "user": "Laura",
+        "comment": "Me sorprendió la eficacia del equipo; apenas llegas, te reciben los materiales ya separados y te atienden en minutos. Es una experiencia sumamente positiva cuidar el medio ambiente aquí."
+      }
+    ]
+  },
+  {
+    "id": "rc-007",
+    "name": "GreenMix San Cristóbal",
+    "address": "Boulevard Principal 10-20, Ciudad San Cristóbal, Mixco, Guatemala",
+    "coordinates": {
+      "lat": 14.605,
+      "lng": -90.575
+    },
+    "phone": "+502 3000 0007",
+    "email": "centro7@recicla.gt",
+    "weekdayHours": "08:00 - 18:00",
+    "weekendHours": "09:00 - 14:00",
+    "rating": 4.4,
+    "materials": [
+      {
+        "type": "aluminum",
+        "pricePerPound": 24.89
+      },
+      {
+        "type": "paper",
+        "pricePerPound": 17.8
+      }
+    ],
+    "comments": [
+      {
+        "user": "Andrés",
+        "comment": "Me sorprendió la eficacia del equipo; apenas llegas, te reciben los materiales ya separados y te atienden en minutos. Es una experiencia sumamente positiva cuidar el medio ambiente aquí."
+      },
+      {
+        "user": "Paula",
+        "comment": "De los lugares más organizados para reciclar. El proceso de pesaje es muy transparente y las tarifas son justas. Totalmente recomendado si buscas reciclar sin tantas complicaciones."
+      }
+    ]
+  },
+  {
+    "id": "rc-008",
+    "name": "EcoVilla Nueva",
+    "address": "Avenida Petapa 45-30, Villa Nueva, Guatemala",
+    "coordinates": {
+      "lat": 14.5265,
+      "lng": -90.5885
+    },
+    "phone": "+502 3000 0008",
+    "email": "centro8@recicla.gt",
+    "weekdayHours": "07:00 - 16:00",
+    "weekendHours": "08:00 - 12:00",
+    "rating": 3.7,
+    "materials": [
+      {
+        "type": "metal",
+        "pricePerPound": 5.38
+      },
+      {
+        "type": "plastic",
+        "pricePerPound": 11.31
+      }
+    ],
+    "comments": [
+      {
+        "user": "Kevin",
+        "comment": "Me sorprendió la eficacia del equipo; apenas llegas, te reciben los materiales ya separados y te atienden en minutos. Es una experiencia sumamente positiva cuidar el medio ambiente aquí."
+      },
+      {
+        "user": "Diana",
+        "comment": "Excelente labor. Llevo frecuentemente mis envases de vidrio y plástico a este lugar y el servicio es muy rápido y cordial. Un gran apoyo para la comunidad ecológica de la ciudad."
+      }
+    ]
+  },
+  {
+    "id": "rc-009",
+    "name": "Recicla Sur",
+    "address": "Kilómetro 15 CA-9, Villa Nueva, Guatemala",
+    "coordinates": {
+      "lat": 14.51,
+      "lng": -90.6
+    },
+    "phone": "+502 3000 0009",
+    "email": "centro9@recicla.gt",
+    "weekdayHours": "08:00 - 17:00",
+    "weekendHours": "09:00 - 13:00",
+    "rating": 4,
+    "materials": [
+      {
+        "type": "glass",
+        "pricePerPound": 15.11
+      },
+      {
+        "type": "paper",
+        "pricePerPound": 24.77
+      }
+    ],
+    "comments": [
+      {
+        "user": "Rosa",
+        "comment": "Muy buen servicio, con pago inmediato y un pesaje totalmente a la vista. A veces hay un poco de fila los sábados al mediodía, pero siempre vale la pena la espera, son muy amables."
+      },
+      {
+        "user": "Miguel",
+        "comment": "Excelente labor. Llevo frecuentemente mis envases de vidrio y plástico a este lugar y el servicio es muy rápido y cordial. Un gran apoyo para la comunidad ecológica de la ciudad."
+      }
+    ]
+  },
+  {
+    "id": "rc-010",
+    "name": "EcoZona 18",
+    "address": "Boulevard San Rafael 5-40, Zona 18, Ciudad de Guatemala, Guatemala",
+    "coordinates": {
+      "lat": 14.68,
+      "lng": -90.468
+    },
+    "phone": "+502 3000 0010",
+    "email": "centro10@recicla.gt",
+    "weekdayHours": "07:00 - 17:00",
+    "weekendHours": "08:00 - 14:00",
+    "rating": 3.5,
+    "materials": [
+      {
+        "type": "metal",
+        "pricePerPound": 28.94
+      },
+      {
+        "type": "plastic",
+        "pricePerPound": 22.52
+      }
+    ],
+    "comments": [
+      {
+        "user": "Luis",
+        "comment": "De los lugares más organizados para reciclar. El proceso de pesaje es muy transparente y las tarifas son justas. Totalmente recomendado si buscas reciclar sin tantas complicaciones."
+      },
+      {
+        "user": "Ana",
+        "comment": "Las instalaciones siempre están impecables y el proceso es sumamente moderno. Llevo todos los materiales de mi pequeña empresa y da mucho gusto apoyar a organizaciones que trabajan con este nivel de compromiso."
+      }
+    ]
+  },
+  {
+    "id": "rc-011",
+    "name": "GreenHub Zona 7",
+    "address": "Calzada San Juan 10-15, Zona 7, Ciudad de Guatemala, Guatemala",
+    "coordinates": {
+      "lat": 14.6505,
+      "lng": -90.55
+    },
+    "phone": "+502 3000 0011",
+    "email": "centro11@recicla.gt",
+    "weekdayHours": "08:00 - 17:00",
+    "weekendHours": "09:00 - 13:00",
+    "rating": 4.1,
+    "materials": [
+      {
+        "type": "paper",
+        "pricePerPound": 27.17
+      },
+      {
+        "type": "glass",
+        "pricePerPound": 17.38
+      }
+    ],
+    "comments": [
+      {
+        "user": "Mario",
+        "comment": "Me encantó este centro de reciclaje. Las instalaciones están muy bien señalizadas, el personal es súper amable y te ayudan a descargar el material del vehículo. Definitivamente volveré."
+      },
+      {
+        "user": "Lucía",
+        "comment": "Excelente labor. Llevo frecuentemente mis envases de vidrio y plástico a este lugar y el servicio es muy rápido y cordial. Un gran apoyo para la comunidad ecológica de la ciudad."
+      }
+    ]
+  },
+  {
+    "id": "rc-012",
+    "name": "EcoExpress Zona 9",
+    "address": "4a Avenida 6-55, Zona 9, Ciudad de Guatemala, Guatemala",
+    "coordinates": {
+      "lat": 14.606,
+      "lng": -90.52
+    },
+    "phone": "+502 3000 0012",
+    "email": "centro12@recicla.gt",
+    "weekdayHours": "08:00 - 18:00",
+    "weekendHours": "09:00 - 15:00",
+    "rating": 4.8,
+    "materials": [
+      {
+        "type": "aluminum",
+        "pricePerPound": 24.72
+      },
+      {
+        "type": "plastic",
+        "pricePerPound": 16.26
+      }
+    ],
+    "comments": [
+      {
+        "user": "Diego",
+        "comment": "Excelente labor. Llevo frecuentemente mis envases de vidrio y plástico a este lugar y el servicio es muy rápido y cordial. Un gran apoyo para la comunidad ecológica de la ciudad."
+      },
+      {
+        "user": "Sofía",
+        "comment": "Excelente labor. Llevo frecuentemente mis envases de vidrio y plástico a este lugar y el servicio es muy rápido y cordial. Un gran apoyo para la comunidad ecológica de la ciudad."
+      }
+    ]
+  },
+  {
+    "id": "rc-013",
+    "name": "Recicla Norte",
+    "address": "Boulevard Los Olivos 12-30, Zona 18, Ciudad de Guatemala, Guatemala",
+    "coordinates": {
+      "lat": 14.69,
+      "lng": -90.47
+    },
+    "phone": "+502 3000 0013",
+    "email": "centro13@recicla.gt",
+    "weekdayHours": "07:00 - 17:00",
+    "weekendHours": "08:00 - 13:00",
+    "rating": 3.6,
+    "materials": [
+      {
+        "type": "metal",
+        "pricePerPound": 18.64
+      },
+      {
+        "type": "paper",
+        "pricePerPound": 7.54
+      }
+    ],
+    "comments": [
+      {
+        "user": "Pedro",
+        "comment": "Muy buen servicio, con pago inmediato y un pesaje totalmente a la vista. A veces hay un poco de fila los sábados al mediodía, pero siempre vale la pena la espera, son muy amables."
+      },
+      {
+        "user": "Ana",
+        "comment": "Me encantó este centro de reciclaje. Las instalaciones están muy bien señalizadas, el personal es súper amable y te ayudan a descargar el material del vehículo. Definitivamente volveré."
+      }
+    ]
+  },
+  {
+    "id": "rc-014",
+    "name": "EcoCentro Zona 11",
+    "address": "Calzada Aguilar Batres 20-10, Zona 11, Ciudad de Guatemala, Guatemala",
+    "coordinates": {
+      "lat": 14.57,
+      "lng": -90.55
+    },
+    "phone": "+502 3000 0014",
+    "email": "centro14@recicla.gt",
+    "weekdayHours": "08:00 - 17:00",
+    "weekendHours": "09:00 - 14:00",
+    "rating": 4,
+    "materials": [
+      {
+        "type": "plastic",
+        "pricePerPound": 22.07
+      },
+      {
+        "type": "glass",
+        "pricePerPound": 25.64
+      }
+    ],
+    "comments": [
+      {
+        "user": "Carlos",
+        "comment": "Me encantó este centro de reciclaje. Las instalaciones están muy bien señalizadas, el personal es súper amable y te ayudan a descargar el material del vehículo. Definitivamente volveré."
+      },
+      {
+        "user": "Laura",
+        "comment": "Me encantó este centro de reciclaje. Las instalaciones están muy bien señalizadas, el personal es súper amable y te ayudan a descargar el material del vehículo. Definitivamente volveré."
+      }
+    ]
+  },
+  {
+    "id": "rc-015",
+    "name": "GreenPoint Zona 16",
+    "address": "Boulevard Acatán 5-60, Zona 16, Ciudad de Guatemala, Guatemala",
+    "coordinates": {
+      "lat": 14.62,
+      "lng": -90.46
+    },
+    "phone": "+502 3000 0015",
+    "email": "centro15@recicla.gt",
+    "weekdayHours": "09:00 - 18:00",
+    "weekendHours": "09:00 - 15:00",
+    "rating": 4.7,
+    "materials": [
+      {
+        "type": "electronics",
+        "pricePerPound": 27.27
+      },
+      {
+        "type": "metal",
+        "pricePerPound": 17.59
+      }
+    ],
+    "comments": [
+      {
+        "user": "Miguel",
+        "comment": "Las instalaciones siempre están impecables y el proceso es sumamente moderno. Llevo todos los materiales de mi pequeña empresa y da mucho gusto apoyar a organizaciones que trabajan con este nivel de compromiso."
+      },
+      {
+        "user": "Sofía",
+        "comment": "Excelente labor. Llevo frecuentemente mis envases de vidrio y plástico a este lugar y el servicio es muy rápido y cordial. Un gran apoyo para la comunidad ecológica de la ciudad."
+      }
+    ]
+  },
+  {
+    "id": "rc-016",
+    "name": "EcoMix Zona 3",
+    "address": "Avenida Elena 18-25, Zona 3, Ciudad de Guatemala, Guatemala",
+    "coordinates": {
+      "lat": 14.62,
+      "lng": -90.53
+    },
+    "phone": "+502 3000 0016",
+    "email": "centro16@recicla.gt",
+    "weekdayHours": "08:00 - 17:00",
+    "weekendHours": "Cerrado",
+    "rating": 3.8,
+    "materials": [
+      {
+        "type": "paper",
+        "pricePerPound": 27.03
+      },
+      {
+        "type": "plastic",
+        "pricePerPound": 13.13
+      }
+    ],
+    "comments": [
+      {
+        "user": "Luis",
+        "comment": "De los lugares más organizados para reciclar. El proceso de pesaje es muy transparente y las tarifas son justas. Totalmente recomendado si buscas reciclar sin tantas complicaciones."
+      },
+      {
+        "user": "Ana",
+        "comment": "De los lugares más organizados para reciclar. El proceso de pesaje es muy transparente y las tarifas son justas. Totalmente recomendado si buscas reciclar sin tantas complicaciones."
+      }
+    ]
+  },
+  {
+    "id": "rc-017",
+    "name": "Recicla Express Zona 13",
+    "address": "Avenida Hincapié 15-40, Zona 13, Ciudad de Guatemala, Guatemala",
+    "coordinates": {
+      "lat": 14.5705,
+      "lng": -90.525
+    },
+    "phone": "+502 3000 0017",
+    "email": "centro17@recicla.gt",
+    "weekdayHours": "08:00 - 18:00",
+    "weekendHours": "09:00 - 14:00",
+    "rating": 4.4,
+    "materials": [
+      {
+        "type": "aluminum",
+        "pricePerPound": 26.29
+      },
+      {
+        "type": "glass",
+        "pricePerPound": 17.82
+      }
+    ],
+    "comments": [
+      {
+        "user": "Pedro",
+        "comment": "De los lugares más organizados para reciclar. El proceso de pesaje es muy transparente y las tarifas son justas. Totalmente recomendado si buscas reciclar sin tantas complicaciones."
+      },
+      {
+        "user": "María",
+        "comment": "De los lugares más organizados para reciclar. El proceso de pesaje es muy transparente y las tarifas son justas. Totalmente recomendado si buscas reciclar sin tantas complicaciones."
+      }
+    ]
+  },
+  {
+    "id": "rc-018",
+    "name": "EcoSur Villa Nueva",
+    "address": "Zona 5 8-20, Villa Nueva, Guatemala",
+    "coordinates": {
+      "lat": 14.54,
+      "lng": -90.59
+    },
+    "phone": "+502 3000 0018",
+    "email": "centro18@recicla.gt",
+    "weekdayHours": "07:00 - 16:00",
+    "weekendHours": "08:00 - 12:00",
+    "rating": 3.9,
+    "materials": [
+      {
+        "type": "metal",
+        "pricePerPound": 29.95
+      },
+      {
+        "type": "plastic",
+        "pricePerPound": 15.92
+      }
+    ],
+    "comments": [
+      {
+        "user": "Kevin",
+        "comment": "Me encantó este centro de reciclaje. Las instalaciones están muy bien señalizadas, el personal es súper amable y te ayudan a descargar el material del vehículo. Definitivamente volveré."
+      },
+      {
+        "user": "Diana",
+        "comment": "Las instalaciones siempre están impecables y el proceso es sumamente moderno. Llevo todos los materiales de mi pequeña empresa y da mucho gusto apoyar a organizaciones que trabajan con este nivel de compromiso."
+      }
+    ]
+  },
+  {
+    "id": "rc-019",
+    "name": "GreenMix Zona 6",
+    "address": "Calzada José Milla 12-10, Zona 6, Ciudad de Guatemala, Guatemala",
+    "coordinates": {
+      "lat": 14.655,
+      "lng": -90.5
+    },
+    "phone": "+502 3000 0019",
+    "email": "centro19@recicla.gt",
+    "weekdayHours": "08:00 - 17:00",
+    "weekendHours": "09:00 - 13:00",
+    "rating": 4.2,
+    "materials": [
+      {
+        "type": "paper",
+        "pricePerPound": 18.32
+      },
+      {
+        "type": "glass",
+        "pricePerPound": 11.51
+      }
+    ],
+    "comments": [
+      {
+        "user": "Mario",
+        "comment": "Las instalaciones siempre están impecables y el proceso es sumamente moderno. Llevo todos los materiales de mi pequeña empresa y da mucho gusto apoyar a organizaciones que trabajan con este nivel de compromiso."
+      },
+      {
+        "user": "Lucía",
+        "comment": "Me sorprendió la eficacia del equipo; apenas llegas, te reciben los materiales ya separados y te atienden en minutos. Es una experiencia sumamente positiva cuidar el medio ambiente aquí."
+      }
+    ]
+  },
+  {
+    "id": "rc-020",
+    "name": "EcoHub Zona 14",
+    "address": "Avenida Las Américas 20-30, Zona 14, Ciudad de Guatemala, Guatemala",
+    "coordinates": {
+      "lat": 14.58,
+      "lng": -90.52
+    },
+    "phone": "+502 3000 0020",
+    "email": "centro20@recicla.gt",
+    "weekdayHours": "09:00 - 18:00",
+    "weekendHours": "09:00 - 15:00",
+    "rating": 4.9,
+    "materials": [
+      {
+        "type": "electronics",
+        "pricePerPound": 25.86
+      },
+      {
+        "type": "aluminum",
+        "pricePerPound": 25.69
+      }
+    ],
+    "comments": [
+      {
+        "user": "Diego",
+        "comment": "Muy buen servicio, con pago inmediato y un pesaje totalmente a la vista. A veces hay un poco de fila los sábados al mediodía, pero siempre vale la pena la espera, son muy amables."
+      },
+      {
+        "user": "Sofía",
+        "comment": "Excelente labor. Llevo frecuentemente mis envases de vidrio y plástico a este lugar y el servicio es muy rápido y cordial. Un gran apoyo para la comunidad ecológica de la ciudad."
+      }
+    ]
+  }
+]

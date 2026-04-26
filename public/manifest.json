@@ -1,0 +1,19 @@
+{
+  "name": "EcoValor",
+  "short_name": "EcoValor",
+  "description": "Recicla. Gana. Impacta. La plataforma líder en gestión inteligente del reciclaje.",
+  "start_url": "/login",
+  "display": "standalone",
+  "background_color": "#fbfdfb",
+  "theme_color": "#2B5729",
+  "orientation": "portrait",
+  "categories": ["environment", "utilities"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

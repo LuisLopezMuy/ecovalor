@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router";
 
 import Splash from "./pages/Splash";
-import Login from "./pages/Splash/Login";
+import Login from "./pages/Login";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import Scan from "./pages/Scan";

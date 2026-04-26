@@ -1,0 +1,182 @@
+[
+  {
+    "id": "p1",
+    "user": "Pablo R.",
+    "avatar": "P",
+    "text": "Increíble el servicio del equipo de reciclaje. Les entregué mis bolsas de envases ya lavados de forma súper sencilla.",
+    "time": "Hace 20 horas",
+    "image": "img1.jpg",
+    "likes": 106
+  },
+  {
+    "id": "p2",
+    "user": "Carmen F.",
+    "avatar": "C",
+    "text": "Me encanta enseñar a los más pequeños a separar la basura orgánica del plástico. Una gran actividad de domingo.",
+    "time": "Hace 15 horas",
+    "image": "img2.jpg",
+    "likes": 185
+  },
+  {
+    "id": "p3",
+    "user": "Luis H.",
+    "avatar": "L",
+    "text": "Increíble el servicio del equipo de reciclaje. Les entregué mis bolsas de envases ya lavados de forma súper sencilla.",
+    "time": "Hace 15 horas",
+    "image": "img3.jpg",
+    "likes": 304
+  },
+  {
+    "id": "p4",
+    "user": "Fernando G.",
+    "avatar": "F",
+    "text": "No cuesta nada separar el vidrio del metal. Es gratificante saber que este material se reutiliza.",
+    "time": "Hace 15 horas",
+    "image": "img4.jpg",
+    "likes": 163
+  },
+  {
+    "id": "p5",
+    "user": "Carlos F.",
+    "avatar": "C",
+    "text": "Me encanta enseñar a los más pequeños a separar la basura orgánica del plástico. Una gran actividad de domingo.",
+    "time": "Hace 9 horas",
+    "image": "img5.jpg",
+    "likes": 232
+  },
+  {
+    "id": "p6",
+    "user": "Pablo R.",
+    "avatar": "P",
+    "text": "Reciclando cartón y papel sobrante de la oficina corporativa. ¡Llenamos todos estos contenedores fácilmente! 📄♻️",
+    "time": "Hace 18 horas",
+    "image": "img6.jpg",
+    "likes": 303
+  },
+  {
+    "id": "p7",
+    "user": "Javier G.",
+    "avatar": "J",
+    "text": "Me encanta enseñar a los más pequeños a separar la basura orgánica del plástico. Una gran actividad de domingo.",
+    "time": "Hace 3 horas",
+    "image": "img7.jpg",
+    "likes": 143
+  },
+  {
+    "id": "p8",
+    "user": "Miguel A.",
+    "avatar": "M",
+    "text": "Hoy logramos que mi residencial comenzara a usar botes separados. Un tremendo logro para la comunidad 💚",
+    "time": "Hace 13 horas",
+    "image": "img8.jpg",
+    "likes": 255
+  },
+  {
+    "id": "p9",
+    "user": "Lucía M.",
+    "avatar": "L",
+    "text": "Encontré este punto limpio de pura casualidad y me solucionó la vida para botar mi viejo televisor de manera responsable.",
+    "time": "Hace 20 horas",
+    "image": "img9.jpg",
+    "likes": 124
+  },
+  {
+    "id": "p10",
+    "user": "Rosa E.",
+    "avatar": "R",
+    "text": "No cuesta nada separar el vidrio del metal. Es gratificante saber que este material se reutiliza.",
+    "time": "Hace 14 horas",
+    "image": "img10.jpg",
+    "likes": 84
+  },
+  {
+    "id": "p11",
+    "user": "Sofia C.",
+    "avatar": "S",
+    "text": "Reciclando cartón y papel sobrante de la oficina corporativa. ¡Llenamos todos estos contenedores fácilmente! 📄♻️",
+    "time": "Hace 20 horas",
+    "image": "img11.jpg",
+    "likes": 23
+  },
+  {
+    "id": "p12",
+    "user": "Fernando G.",
+    "avatar": "F",
+    "text": "Nada mejor que ver todo clasificado. Pequeños pasos que marcan la diferencia. ¡A seguir reciclando, familia!",
+    "time": "Hace 12 horas",
+    "image": "img12.jpg",
+    "likes": 166
+  },
+  {
+    "id": "p13",
+    "user": "Mariana L.",
+    "avatar": "M",
+    "text": "Aproveché la mañana para llevar mis botellas plásticas y vidrio. 🌿 El planeta agradece cada esfuerzo.",
+    "time": "Hace 12 horas",
+    "image": "img13.jpg",
+    "likes": 280
+  },
+  {
+    "id": "p14",
+    "user": "Javier G.",
+    "avatar": "J",
+    "text": "Es impresionante cuánto plástico genera una sola familia. Por suerte, logramos reciclarlo todo antes de que acabe en el océano.",
+    "time": "Hace 13 horas",
+    "image": "img14.jpg",
+    "likes": 8
+  },
+  {
+    "id": "p15",
+    "user": "Elena D.",
+    "avatar": "E",
+    "text": "No cuesta nada separar el vidrio del metal. Es gratificante saber que este material se reutiliza.",
+    "time": "Hace 8 horas",
+    "image": "img15.jpg",
+    "likes": 168
+  },
+  {
+    "id": "p16",
+    "user": "Fernando G.",
+    "avatar": "F",
+    "text": "No cuesta nada separar el vidrio del metal. Es gratificante saber que este material se reutiliza.",
+    "time": "Hace 7 horas",
+    "image": "img16.jpg",
+    "likes": 218
+  },
+  {
+    "id": "p17",
+    "user": "Laura V.",
+    "avatar": "L",
+    "text": "Hoy fui al EcoCentro a llevar todo el cartón acumulado del mes. ¡Qué buen servicio tienen! ♻️📦",
+    "time": "Hace 9 horas",
+    "image": "img17.jpg",
+    "likes": 184
+  },
+  {
+    "id": "p18",
+    "user": "Rosa E.",
+    "avatar": "R",
+    "text": "Nada mejor que ver todo clasificado. Pequeños pasos que marcan la diferencia. ¡A seguir reciclando, familia!",
+    "time": "Hace 9 horas",
+    "image": "img18.jpg",
+    "likes": 60
+  },
+  {
+    "id": "p19",
+    "user": "Luis H.",
+    "avatar": "L",
+    "text": "Reciclando cartón y papel sobrante de la oficina corporativa. ¡Llenamos todos estos contenedores fácilmente! 📄♻️",
+    "time": "Hace 14 horas",
+    "image": "img19.jpg",
+    "likes": 211
+  },
+  {
+    "id": "p20",
+    "user": "Carlos F.",
+    "avatar": "C",
+    "text": "Increíble el servicio del equipo de reciclaje. Les entregué mis bolsas de envases ya lavados de forma súper sencilla.",
+    "time": "Hace 23 horas",
+    "image": "img20.jpg",
+    "likes": 285
+  }
+]

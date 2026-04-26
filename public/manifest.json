@@ -10,10 +10,16 @@
   "categories": ["environment", "utilities"],
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "/EcoValorIcon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/EcoValorIcon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
     }
   ]
 }
